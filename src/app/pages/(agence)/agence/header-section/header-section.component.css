@@ -1,0 +1,112 @@
+.center-content {
+    width: 100%;
+    margin: 7vh auto 120px auto;
+}
+
+
+/* Section HEADER/ETIQUETTE */
+
+#header-container {
+    height: 100%;
+}
+
+#etiquette-img {
+    position: relative;
+    top: 30px;
+}
+
+.etiquette {
+    position: relative;
+    color: white;
+    margin-left: 1.5vw;
+}
+
+.spacing {
+    height: 40px;
+}
+
+.description {
+    font-size: 14px !important;
+}
+
+.title-etiquette {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 57px;
+    top: -110px;
+}
+
+.first-word {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.subtitle {
+    font-size: 26px;
+}
+
+.subsubtitle {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container-text-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 0px;
+    background-image: url('svg/offres/audit/fleches.svg');
+    background-repeat: repeat-x;
+    background-size: auto;
+    padding-left: 77px;
+    padding-right: 77px;
+}
+
+.container-body-header {
+    margin-top: 50px;
+}
+
+.container-subtitle {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.part {
+    width: 45%;
+}
+
+@media (max-width: 768px) {
+    .part {
+        width: 100%;
+    }
+
+    .center-content {
+        margin-top: 100px;
+    }
+
+    .container-text-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        top: -50px;
+        background-image: url('svg/offres/audit/fleches.svg');
+        background-repeat: repeat-x;
+        background-size: auto;
+    }
+
+    #header-container {
+        margin-top: 20px;
+    }
+
+    .title-etiquette {
+        top: -100px;
+        font-size:37px;
+    }
+
+    p {
+        text-align: center;
+    }
+}
